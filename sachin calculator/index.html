@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Calculator</title>
+    <style>
+        .container{
+            margin:50px 50px 50px 50px;
+            width: 300px;
+            height: 600px;
+            background-color:black;
+            
+            border-radius: 20px;
+            
+        }
+        #input{
+            border-radius: 20px;
+            width:285px;
+            height:100px;
+            background-color:lemonchiffon;
+        }
+        #seven{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+        }
+        #eight{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+        }
+        #nine{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+        }
+        #four{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+        }
+        #five{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+
+        }
+        #six{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+
+        }
+        #one{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+
+        }
+        #two{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+
+        }
+        #three{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+
+        }
+        #zero{
+            width:83px;
+            height: 50px;
+            color:white;
+            background-color: black;
+            
+
+        }
+        #dot{
+            width:83px;
+            height: 50px;
+            background-color: lightgreen;
+            color:black;
+
+        }
+        #equall{
+            width:83px;
+            height: 50px;
+            
+            color:white;
+            background-color:green;
+        }
+        #percentage{
+            width:83px;
+            height: 50px;
+            background-color: lightgreen;
+            color:black;
+        }
+        #divide{
+            width:83px;
+            height: 50px;
+            background-color: lightgreen;
+            color:black;
+        }
+        #star{
+            width:83px;
+            height: 50px;
+            background-color: lightgreen;
+            color:black;
+        }
+        #minus{
+            width:83px;
+            height: 50px;
+            background-color: lightgreen;
+            color:black;
+        }
+        #plus{
+            width:83px;
+            height: 50px;
+            background-color: lightgreen;
+            color:black;
+        }
+        #ac{
+            width:83px;
+            height: 50px;
+            background-color:red;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <form>
+                <input type="text" name="answer" id="input">
+                <br>
+                <br>
+                
+                
+                <input type="button" value="7" onclick="form.answer.value+='7'" id="seven">
+                <input type="button" value="8" onclick="form.answer.value+='8'" id="eight">
+                <input type="button" value="9" onclick="form.answer.value+='9'" id="nine">
+                <br><br>
+                <input type="button" value="4" onclick="form.answer.value+='4'" id="four">
+                <input type="button" value="5" onclick="form.answer.value+='5'" id="five">
+                <input type="button" value="6" onclick="form.answer.value+='6'" id="six">
+                <br><br>
+                <input type="button" value="1" onclick="form.answer.value+='1'" id="one">
+                <input type="button" value="2" onclick="form.answer.value+='2'"  id="two">
+                <input type="button" value="3" onclick="form.answer.value+='3'" id="three">
+                
+                <br>
+                <br>
+
+                <input type="button" value="0" onclick="form.answer.value+='0'" id="zero">
+                <br>
+                <br>
+                <input type="button" value="." onclick="form.answer.value+='.'" id="dot">
+                <input type="button" value="+" onclick="form.answer.value+='+'" id="plus">
+                
+                <input type="button" value="%" onclick="form.answer.value+='%'" id="percentage">
+                <br><br>
+                <input type="button" value="/" onclick="form.answer.value+='/'" id="divide">
+                <input type="button" value="*" onclick="form.answer.value+='*'" id="star">
+                <input type="button" value="-" onclick="form.answer.value+='-'" id="minus">
+                <br><br>
+                <input type="button" value="=" onclick="form.answer.value=eval(form.answer.value)" id="equall">
+                <input type="button" value="AC" onclick="form.answer.value=''" id="ac">
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
